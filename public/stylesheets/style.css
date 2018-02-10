@@ -1,0 +1,184 @@
+
+.deep-blue {
+  background: #061052;
+}
+
+.deep-blue-text {
+  color: #061052;
+}
+
+.card-tabs .tabs .tab a.active, .card-tabs .tabs .tab a.hover {
+  color: white;
+}
+
+.card-tabs .tabs .indicator {
+  background-color: #061052;
+  height: 100%;
+}
+
+.card-tabs .tabs .tab a {
+  color: #061052;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  background-color: crimson;
+  color: white;
+  font-weight: 500;
+}
+
+.card-tabs li {
+  z-index: 9999;
+}
+
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: white;
+  color: #061052;
+  font-weight: 600;
+  letter-spacing:0.1em;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row  .col {
+  align-items: stretch;
+}
+
+.fixed-height-card-content {
+  height:60vh;
+}
+
+.card-panel {
+  padding:12px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.dashboard-nav ul.left {
+  margin-left: 1em;
+}
+
+.dashboard-nav ul.left a {
+  margin-right: 1em;
+}
+
+.dashboard-nav ul.right {
+  margin-right: 1em;
+}
+
+.dashboard-nav ul.right a {
+  margin-left: 1em;
+}
+
+.table-title {
+  font-family: Roboto !important;
+  padding: 1em;
+  border-left: 0.3em solid #FA8072;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  background: white !important;
+}
+
+.vacancy td {
+  padding:2em;
+}
+
+h6 {
+  font-weight:400;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 993px){
+  .container {
+    width: 90%;
+  }
+}
+
+.vacancy .card {
+  margin: 0 !important;
+}
+
+.vacancy .status-text {
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 1em;
+}
+
+.strong {
+  font-weight:600;
+}
+
+.page-title {
+
+}
+
+#dashboard  {
+  background: #ebeff1;
+}
+
+.secondary-navbar {
+  height: 60px;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.secondary-navbar  .indicator {
+  height: 0.3em;
+  background-color: #fff;
+}
+
+.secondary-navbar  ul a {
+  line-height:60px;
+  height:60px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.secondary-navbar .tabs {
+  background-color: #1a237e;
+  height: 60px;
+}
+
+.secondary-navbar tabs .tab a:hover, .secondary-navbar .tabs .tab a.active, .secondary-navbar .tabs .tab a:hover {
+  background-color: transparent;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.secondary-navbar .tabs .tab a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.no-margins {
+  margin: 0;
+}
+
+.no-borders {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+  background-color: crimson;
+  color: white;
+}
